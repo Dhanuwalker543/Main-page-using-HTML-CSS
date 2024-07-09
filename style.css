@@ -1,0 +1,41 @@
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 15px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.parallax {
+    background-image: url("5q62o6itgup61.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    text-align: center;
+}
+div{
+    margin-top: 100px;
+    margin-left: 400px;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    color: black;
+}
+img{
+    margin: 40px 0px;
+    width: 200px;
+}
+ul{
+    list-style-type: none;
+    color: white;
+    display: flex;
+    text-align: center;
+}
+li{
+ margin-left: 20px;
+ cursor: pointer;
+}
